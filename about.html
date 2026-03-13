@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Neha Bhat - interests, hobbies, and background.">
+    <meta name="author" content="Neha Bhat">
+    <title>About | Neha Bhat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="about-header">
+            <img src="images/profile.jpg" alt="Neha Bhat" class="profile-img" onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&h=300&fit=crop'">
+            <h1>About Me</h1>
+        </div>
+
+        <section>
+            <h2>Hobbies</h2>
+            <ul>
+                <li><strong>Music</strong> — Guitar, singing, piano
+                    <div class="music-videos">
+                        <video src="images/musicvideo1.mpeg" controls title="Music video 1"></video>
+                        <video src="images/musicvideo2.mpeg" controls title="Music video 2"></video>
+                    </div>
+                </li>
+                <li><strong>Martial arts</strong> — 3rd degree black belt</li>
+                <li><strong>Travel & photography</strong> — Some of my favorite shots below:</li>
+            </ul>
+
+            <div class="carousel" id="photo-carousel">
+                <div class="carousel-track">
+                    <div class="carousel-slide">
+                        <img src="images/travel1.JPG" alt="Travel photo 1">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/travel2.jpg" alt="Travel photo 2">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/travel3.jpg" alt="Travel photo 3">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/travel4.JPG" alt="Travel photo 4">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/travel5.jpg" alt="Travel photo 5">
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn" id="carousel-prev">← Previous</button>
+                    <button class="carousel-btn" id="carousel-next">Next →</button>
+                </div>
+                <div class="carousel-dots" id="carousel-dots"></div>
+            </div>
+            <h3>Recent Travels</h3>
+            <ul class="recent-travels">
+                <li><strong>Oahu, Hawaii</strong> — Winter 2025</li>
+                <li><strong>Greece</strong> — Summer 2025</li>
+                <li><strong>Bangalore / Pune, India</strong> — Summer 2025</li>
+                <li><strong>Banff & Jasper, Canada</strong> — Summer 2024</li>
+                <li><strong>Switzerland</strong> — Summer 2023</li>
+            </ul>
+            
+        </section>
+
+        <p class="back-link"><a href="index.html">← Back to Home</a></p>
+    </main>
+
+    <footer>
+        <p>© 2026 Neha Bhat</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Neha Bhat - Projects, experience, and leadership.">
+    <meta name="author" content="Neha Bhat">
+    <title>Projects | Neha Bhat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>Projects, Experience & Leadership</h1>
+
+        <section id="experience">
+            <h2>Experience</h2>
+
+            <div class="experience-item">
+                <h3>San Diego Supercomputer Center</h3>
+                <p class="exp-meta">Undergraduate Researcher, San Diego, CA · 2024 – Present</p>
+                <img src="images/sdsc-poster.png" alt="Research poster" class="exp-media" onerror="this.style.display='none'">
+                <ul>
+                    <li>Built and ran large-scale molecular dynamics simulations on the SDSC supercomputer using LAMMPS (a parallel
+                        simulation engine) to model many-body atomic interactions in aqueous salt solutions.</li>
+                    <li>Wrote Python scripts to clean and organize simulation output data for downstream analysis and ML workflows.</li>
+                    <li>Trained and benchmarked MACE graph neural network models against classical simulations to evaluate predictive
+                        accuracy and performance tradeoffs across various molecular configurations.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h3>Big Data at Berkeley</h3>
+                <p class="exp-meta">Curriculum Developer, Berkeley, CA · 2025 – Present</p>
+                <img src="images/bigdata.png" alt="Big Data at Berkeley" class="exp-media" onerror="this.src='https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=300&fit=crop'">
+                <div class="exp-video">
+                    <video src="images/GradientDescentVideo.mp4" controls title="Big Data video"></video>
+                </div>
+                <p>Created ML educational videos using Manim. Visualized algorithms and data flows for non-technical audiences.</p>
+            </div>
+        </section>
+
+        <section id="leadership">
+            <h2>Leadership</h2>
+            <h3><a href="https://music4allkids.org" target="_blank" rel="noopener noreferrer">Music For All Kids</a></h3>
+            <ul>
+                <li>Founded and scaled a nonprofit organization providing music education access to underserved students.</li>
+                <li>Designed and maintained the organization website to support outreach, program visibility, and donor engagement.</li>
+                <li>Managed partnerships and operations; raised $3,000+, donated 75 instruments, and launched two school music programs.</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <article class="project-card" id="bird-habitat">
+                <img src="images/endangeredbird.png" alt="Bird habitat classification project">
+                <h3>Endangered Bird Habitat Classification</h3>
+                <p class="project-meta">JavaScript, Google Earth Engine, Machine Learning · 2023</p>
+                <ul>
+                    <li>Built a supervised learning pipeline on Google Earth Engine to classify endangered bird habitats using eBird sightings
+                        data and Landsat 8 satellite imagery.</li>
+                    <li>Engineered features by integrating spectral bands, NDVI vegetation indices, elevation constraints, and labeled
+                        habitat/non-habitat polygons.</li>
+                    <li>Trained CART, Support Vector Machine (SVM), Random Forest, and MaxEnt classifiers and evaluated model
+                        performance using accuracy metrics (AUC-ROC) and spatial validation.</li>
+                    <li>Generated pixel-level classification maps to estimate total habitat vs. non-habitat area for land-use planning.</li>
+                </ul>
+            </article>
+
+            <article class="project-card" id="biodiesel">
+                <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&h=300&fit=crop" alt="Biodiesel and energy">
+                <h3>Biodiesel Emissions Data Analysis</h3>
+                <p class="project-meta">Python, Excel, Statistical Analysis · 2023</p>
+                <ul>
+                    <li>Cleaned, aggregated, and analyzed emissions datasets from biodiesel–petroleum diesel blends using Python and Excel to
+                        evaluate aerosol output across fuel compositions.</li>
+                    <li>Applied statistical trend analysis and visualization to assess relationships between biodiesel concentration, particulate
+                        size distribution, and emissions efficiency.</li>
+                </ul>
+            </article>
+
+            <article class="project-card" id="marine">
+                <img src="images/marinebiodiversity.jpg" alt="Marine biodiversity" class="img-bottom">
+                <h3>Marine Biodiversity Trend Analysis</h3>
+                <p class="project-meta">R, Excel, Data Visualization · 2022</p>
+                <ul>
+                    <li>Applied statistical trend analysis and visualization to assess relationships between biodiesel concentration, particulate
+                        size distribution, and emissions efficiency.</li>
+                    <li>Integrated field surveys and historical MARINe data, performing data cleaning, visualization, and trend analysis in R.</li>
+                    <li>Compiled findings into a 10-page research paper and presented results to 200+ faculty and students.</li>
+                </ul>
+            </article>
+
+            <p class="back-link"><a href="index.html">← Back to Home</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Neha Bhat</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
