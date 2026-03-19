@@ -349,6 +349,29 @@ button[type="submit"]:hover {
     color: var(--blue);
 }
 
+/* Project title links & external links - make them clearly look clickable */
+.project-card h3 a,
+#leadership h3 a {
+    color: var(--pink-bright);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: var(--pink-light);
+    transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.project-card h3 a::after,
+#leadership h3 a::after {
+    content: " ↗";
+    font-size: 0.85em;
+    opacity: 0.8;
+}
+
+.project-card h3 a:hover,
+#leadership h3 a:hover {
+    color: var(--blue);
+    text-decoration-color: var(--blue);
+}
+
 .back-link {
     margin-top: 2rem;
 }
